@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+canvas {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#total-wrapper {
+    position: relative;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-wrapper {
+    padding: 80px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    max-width: 600px;
+    overflow: hidden;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-section {
+    gap: 5px;
+}
+
+h4 {
+    color: #393E46;
+}
+
+.login-section {
+    gap: 20px;
+}
+
+.input-section {
+    gap: 3px;
+}
+
+input {
+    font-size: larger;
+    border-radius: 5px;
+    border: 3px solid #EEEEEE;
+    padding: 10px;
+}
+
+.buttons {
+    background-color: #222831;
+    color: white;
+    font-size: x-large;
+    padding: 5px;
+    width: 450px;
+    border-radius: 5px;
+}
+
+.contacts-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.contacts {
+    color: #222831;
+    font-size: x-large;
+    padding: 20px;
+    width: 70px;
+    aspect-ratio: 1/1;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#cover {
+    position: absolute;
+    background-color: #402E7A;
+    width: 50%;
+    height: 100%;
+    z-index: 1;
+    border-radius: 25px;
+    transition: 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    left: 50%;
+}
+
+#transition-button {
+    font-size: larger;
+    padding: 10px 70px;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: #402E7A;
+    color: white;
+}
+

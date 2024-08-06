@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello</title>
+</head>
+<body>
+    <canvas id="floatingBalls"></canvas>
+
+    <div id="wrapper">
+
+        <div id="total-wrapper">
+            <div id="cover" class="right">
+                <h1 id="transition-head">Hello!</h1>
+                <h2 id="transition-body">Click here if you would like to register a new account into the site</h2>
+                <button id="transition-button">SIGN UP</button>
+            </div>
+
+            <div id="login-wrapper" class="login-wrapper">
+                <div class="section top-section">
+                    <h1>Sign In</h1>
+                    <h4>Welcome, Good to see you!</h4>
+                </div>
+
+                <div class="contacts-wrapper">
+                    <a><div class="contacts"><i class="fa-brands fa-google"></i></div></a>
+                    <a><div class="contacts"><i class="fa-brands fa-github"></i></div></a>
+                    <a><div class="contacts"><i class="fa-brands fa-facebook-f"></i></div></a>
+                    <a><div class="contacts"><i class="fa-brands fa-linkedin-in"></i></div></a>
+                </div>
+
+                <div class="section login-section">
+                    <div class="section input-section">
+                        <label>Email </label>
+                        <input type="text">
+                    </div>
+
+                    <div class="section input-section">
+                        <label for="password-input">Password</label>
+                        <input type="password" id="password-input">
+                    </div>
+                </div>
+
+                <button id="login-button" class="buttons">Login</button>
+            </div>
+
+            <div id="signIn-Wrapper" class="login-wrapper">
+                <div class="section top-section">
+                    <h1>Create an account</h1>
+                    <h4>Welcome, Good to see you!</h4>
+                </div>
+
+                <div class="contacts-wrapper">
+                    <a><div class="contacts"><i class="fa-brands fa-google"></i></div></a>
+                    <a><div class="contacts"><i class="fa-brands fa-github"></i></div></a>
+                    <a><div class="contacts"><i class="fa-brands fa-facebook-f"></i></div></a>
+                    <a><div class="contacts"><i class="fa-brands fa-linkedin-in"></i></div></a>
+                </div>
+
+                <div class="section login-section">
+                    <div class="section input-section">
+                        <label>Name</label>
+                        <input type="text">
+                    </div>
+
+                    <div class="section input-section">
+                        <label>Email</label>
+                        <input type="text">
+                    </div>
+
+                    <div class="section input-section">
+                        <label for="password-input">Password</label>
+                        <input type="password" id="sign-password-input">
+                    </div>
+                </div>
+
+                <button id="sign-button" class="buttons">Sign Up</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
